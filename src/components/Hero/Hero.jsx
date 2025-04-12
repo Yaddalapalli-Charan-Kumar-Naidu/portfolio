@@ -1,5 +1,7 @@
 import React from 'react'
-import {words} from "../constants/index";
+import {words} from "../../constants/index";
+import Button from '../Button';
+import HeroExperience from './HeroExperience';
 
 function Hero() {
   return (
@@ -7,7 +9,7 @@ function Hero() {
       <div className="absolute top-0 left-0 z-10">
         <img src='/images/bg.png' alt="background"/>
       </div>
-      <div class="hero-layout">
+      <div className="hero-layout">
         <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
@@ -33,10 +35,17 @@ function Hero() {
             </h1>
             </div>
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                Hi, I'm charan, a full stack developer with a passion for code
+            Turning ideas into impactful web experiences — I'm Charan, a full-stack developer passionate about building scalable, user-focused solutions.
             </p>
+            <Button className="md:w-80 md:h-16 w-60 h-12" text="See my work"/>
           </div>
         </header>
+
+        <figure>
+            <div className='hero-3d-layout'>
+                  <HeroExperience/>
+            </div>
+        </figure>
       </div>
     </section>
   )
