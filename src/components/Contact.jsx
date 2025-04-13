@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
-
+import emailjs from "@emailjs/browser";
 import TitleHeader from "../components/TitleHeader";
 import Computer from "./Computer";
-
+import toast from "react-hot-toast";
 const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
@@ -19,23 +19,24 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // setLoading(true); // Show loading state
+    setLoading(true); // Show loading state
 
-    // try {
-    //   await emailjs.sendForm(
-    //     import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-    //     import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-    //     formRef.current,
-    //     import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-    //   );
-
-    //   // Reset form and stop loading
-    //   setForm({ name: "", email: "", message: "" });
-    // } catch (error) {
-    //   console.error("EmailJS Error:", error); // Optional: show toast
-    // } finally {
-    //   setLoading(false); // Always stop loading, even on error
-    // }
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      );
+      toast.success("Your message has been sent successfully")
+      // Reset form and stop loading
+      setForm({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error("EmailJS Error:", error); // Optional: show toast
+      toast.error("Error sending your message.Try again");
+    } finally {
+      setLoading(false); // Always stop loading, even on error
+    }
   };
 
   return (

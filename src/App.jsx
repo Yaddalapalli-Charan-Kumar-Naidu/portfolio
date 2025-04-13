@@ -8,11 +8,13 @@ import ExperienceSections from './components/ExperienceSections'
 import TechStack from './components/TechStack'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
   
   return (
     <>
+    <Toaster position='top-right'/>
       <Navbar/>
       <Hero/>
       <ShowcaseSection/>
