@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import LogoShowcase from './components/LogoShowcase'
 import StrengthCards from './components/StrengthCards'
 import ExperienceSections from './components/ExperienceSections'
+import TechStack from './components/TechStack'
 
 function App() {
   
@@ -16,6 +17,8 @@ function App() {
       <LogoShowcase/>
       <StrengthCards/>
       <ExperienceSections/>
+      <TechStack/>
+      
     </>
   )
 }
