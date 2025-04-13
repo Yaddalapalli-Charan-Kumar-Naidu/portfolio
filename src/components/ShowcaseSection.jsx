@@ -51,8 +51,8 @@ const ShowcaseSection = () => {
                         <img src="/images/project1.png"/>
                     </div>
                     <div className='text-content'>
-                        <h2>Devhub a website for developers to connect</h2>
-                        <p className='text-white-50 md:text-xl'>A place for developer to chat and connect with each other</p>
+                        <h2>Devhub – A website for developers to connect</h2>
+                        <p className='text-white-50 md:text-xl'>A place for developers to chat and connect with each other.</p>
                     </div>
                 </div>
                 <div className="project-list-wrapper overflow-hidden">
@@ -61,18 +61,16 @@ const ShowcaseSection = () => {
                             <img src="/images/project2.png" alt="project2"/>
                             
                         </div>
-                        <h2>
-                                Resume Craft
-                            </h2>
+                        <h2 className='text-lg'>Resume Craft – Build professional resumes</h2>
+                        <p className='text-white-50'>An easy-to-use resume builder to create professional resumes.</p>
                     </div>
                     <div className="project" ref={project3Ref}>
                         <div className='image-wrapper bg-[#ffe7eb]'>
                             <img src="/images/project3.png" alt="project2"/>
                             
                         </div>
-                        <h2>
-                                Portfolio
-                            </h2>
+                        <h2 className='text-lg'>Booknest – Share and discover book recommendations</h2>
+                        <p className='text-white-50 '>A React Native app where users can share and discover book recommendations with others.</p>
                     </div>
                 </div>
             </div>
