@@ -71,20 +71,21 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Full-Stack Development",
+    desc: "Creating responsive and dynamic web apps using modern technologies like MERN and React Native.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Team Collaboration",
+    desc: "Working effectively with peers during projects and hackathons to build impactful solutions.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Consistent Learning",
+    desc: "Always exploring new tools and frameworks to enhance development skills and stay ahead.",
   },
 ];
+
 
 const techStackImgs = [
   {
