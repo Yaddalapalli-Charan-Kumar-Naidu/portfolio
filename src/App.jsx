@@ -6,6 +6,7 @@ import LogoShowcase from './components/LogoShowcase'
 import StrengthCards from './components/StrengthCards'
 import ExperienceSections from './components/ExperienceSections'
 import TechStack from './components/TechStack'
+import Testimonials from './components/Testimonials'
 
 function App() {
   
@@ -18,7 +19,7 @@ function App() {
       <StrengthCards/>
       <ExperienceSections/>
       <TechStack/>
-      
+      <Testimonials/>
     </>
   )
 }
