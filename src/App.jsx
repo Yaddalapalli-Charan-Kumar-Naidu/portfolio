@@ -19,7 +19,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <ShowcaseSection/>
-      <LogoShowcase/>
+      {/* <LogoShowcase/> */}
       <StrengthCards/>
       <ExperienceSections/>
       <TechStack/>
