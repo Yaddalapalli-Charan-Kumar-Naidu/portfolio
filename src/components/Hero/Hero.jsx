@@ -55,7 +55,7 @@ function Hero() {
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
             Turning ideas into impactful web experiences — I'm Charan, a full-stack developer passionate about building scalable, user-focused solutions.
             </p>
-            <Button className="md:w-80 md:h-16 w-60 h-12" text="See my work" id="count"/>
+            <Button className="md:w-80 md:h-16 w-60 h-12" text="Resume" id="count" link="resume"/>
           </div>
         </header>
 

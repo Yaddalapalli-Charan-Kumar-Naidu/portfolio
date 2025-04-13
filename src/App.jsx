@@ -23,7 +23,7 @@ function App() {
       <StrengthCards/>
       <ExperienceSections/>
       <TechStack/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer/>
     </>

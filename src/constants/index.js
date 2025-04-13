@@ -145,42 +145,58 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Charan and his team impressed the judges with a well-structured, innovative university collaboration platform. His technical contributions were top-notch.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Hackathon Winner – University Collaboration Platform",
+    date: "March 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built a platform for real-time discussions, student clubs, internships, and alumni networks.",
+      "Integrated secure authentication and structured forums for universities.",
+      "Led backend and frontend efforts to ensure performance and scalability.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Charan’s passion for building useful mobile apps is evident in Booknest. His React Native work is both polished and purpose-driven.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "React Native Developer – Booknest",
+    date: "February 2025 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed Booknest, a mobile app for sharing and discovering book recommendations.",
+      "Implemented a clean UI with React Native and managed state effectively.",
+      "Focused on intuitive UX and real-time content sharing between users.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Devhub is a sleek developer networking platform. Charan built robust connection and feed systems with high efficiency, creating a seamless experience for users.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Full Stack Developer – Devhub",
+    date: "January 2025 - Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built a developer networking platform with connection request handling and real-time chat.",
+      "Used Redis to optimize feed delivery and manage connection request caching for better performance.",
+      "Implemented cron jobs to send daily email summaries of pending requests via Amazon SES.",
+      "Hosted the platform on AWS EC2 and ensured secure, scalable backend infrastructure.",
+    ],
+  },
+  
+  
+  {
+    review: "Resume Craft reflects Charan's attention to user experience and modern web design. The project stands out for its simplicity and functionality.",
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logo4.png",
+    title: "Full Stack Developer – Resume Craft",
+    date: "January 2025 - Present",
+    responsibilities: [
+      "Built a professional resume builder with template selection and real-time preview features.",
+      "Integrated PDF download and resume link sharing functionality.",
+      "Used React, Node.js, and MongoDB to ensure a smooth user experience.",
     ],
   },
 ];
+
 
 const expLogos = [
   {
@@ -199,48 +215,49 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Sai Vathsal",
+    mentions: "@sai_vathsal",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Charan’s leadership during our first hackathon was incredible. He handled the frontend and integrations with ease and ensured we stayed on track with features and timeline.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Tharun Yetti",
+    mentions: "@tharun_yetti",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Charan on Booknest was a smooth experience. His React Native skills and UI precision made the app both functional and visually clean.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Sai Balaji",
+    mentions: "@sai_balaji",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Charan is super dedicated. His work on Devhub, from EC2 deployment to optimizing Redis-based feeds, proved his depth and attention to system performance.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Harsha",
+    mentions: "@harsha_codes",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "ResumeCraft wouldn’t have taken shape without Charan’s consistent effort. He nailed the dynamic template handling and PDF generation with perfection.",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Manasa",
+    mentions: "@manasa_uiux",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Charan is the perfect teammate. He listens, adapts, and always puts the project first. His ability to work across frontend and backend is rare and valuable.",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Vishnu",
+    mentions: "@vishnu_dev",
+    review:
+      "Charan is someone you can count on. During our dev sprint, he was available anytime and contributed to both code and direction. Super reliable and skilled!",
     imgPath: "/images/client6.png",
   },
 ];
+
 
 const socialImgs = [
   {
