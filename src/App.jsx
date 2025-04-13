@@ -7,6 +7,7 @@ import StrengthCards from './components/StrengthCards'
 import ExperienceSections from './components/ExperienceSections'
 import TechStack from './components/TechStack'
 import Testimonials from './components/Testimonials'
+import Contact from './components/Contact'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       <ExperienceSections/>
       <TechStack/>
       <Testimonials/>
+      <Contact/>
     </>
   )
 }
