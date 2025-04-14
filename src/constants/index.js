@@ -278,6 +278,71 @@ const socialImgs = [
   },
 ];
 
+const certifications = [
+  {
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },
+  {
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },{
+    imgPath: '/images/project1.png',
+    title: 'Full Stack Development',
+    institution: 'Coursera',
+    date: 'June 2024',
+    link: 'https://chat.deepseek.com/a/chat/s/fb44a946-5cbf-4a05-9bf4-2a41f015a9a4',
+  },
+  
+
+  // A
+  // dd more certifications here with a link
+];
+
+
+
 export {
   words,
   abilities,
@@ -290,4 +355,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  certifications,
 };

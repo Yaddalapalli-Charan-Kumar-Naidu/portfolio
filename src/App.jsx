@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import { Toaster } from 'react-hot-toast'
 import Footer from './components/Footer'
+import Certifications from './components/Certifications'
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
       <ExperienceSections/>
       <TechStack/>
       {/* <Testimonials/> */}
+      <Certifications/>
       <Contact/>
       <Footer/>
     </>
